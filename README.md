@@ -91,6 +91,14 @@ header {
   padding-bottom: 1rem;
 }
 
+.banner {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+
 	3.js/script.js:   
 const villas = [
   {
