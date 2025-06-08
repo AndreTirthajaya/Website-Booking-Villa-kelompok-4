@@ -52,7 +52,8 @@ File harus diberi nama yang deskriptif untuk memudahkan identifikasi.
 
 5. Cuplikan code
 
-	1.index.html:
+
+       1.index.html
 <!DOCTYPE html>
 <html lang="id">
 <head>
