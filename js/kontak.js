@@ -37,17 +37,17 @@ document.addEventListener('DOMContentLoaded', function () {
   tooltip.style.pointerEvents = 'none';
   tooltip.style.opacity = 0;
   tooltip.style.transition = 'opacity 0.3s';
-  tooltip.innerText = 'Villa Lake View - Jl. Danau Asri No. 321, Bali';
+  tooltip.innerText = 'Villa Tepi Danau - Jl. Raya Bedugul No. 100, Bali';
 
   document.body.appendChild(tooltip);
 
-  mapImage.addEventListener('mousemove', function (e) {
+  mapContainer.addEventListener('mousemove', function (e) {
     tooltip.style.left = e.pageX + 15 + 'px';
     tooltip.style.top = e.pageY + 15 + 'px';
-    tooltip.style.opacity = 1;
+    tooltip.style.opacity = '1';
   });
 
-  mapImage.addEventListener('mouseleave', function () {
-    tooltip.style.opacity = 0;
+  mapContainer.addEventListener('mouseleave', function () {
+    tooltip.style.opacity = '0';
   });
 });
