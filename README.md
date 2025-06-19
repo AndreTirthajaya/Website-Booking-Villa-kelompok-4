@@ -3,10 +3,10 @@ Laporan Proyek : Judul Sistem Boking Villa
 1. Pendahuluan
 Proyek ini adalah sebuah aplikasi web sederhana untuk memfasilitasi pemesanan vila secara online. Pengguna dapat melihat daftar vila yang tersedia, melihat detail masing-masing vila, dan melakukan pemesanan. Aplikasi ini dikembangkan menggunakan teknologi dasar web seperti HTML untuk struktur, CSS untuk gaya, dan JavaScript untuk fungsionalitas interaktif.
 
-2. Daftar Anggota : 1. Andre Kurniawan Tirthajaya (2400100), USERNAME :, Peran :
-   		    2. I Nyoman Harry Adi Suputra (240010059), USERNAME : Hrylow, Peran : Membuat Laporan
-   		    3. I Nyoman Surya Adi (240010055), USERNAME : inysryadi, Peran : JavaScript
-   		    4. I Wayan Anga Wira Pratama (240010070), USERNAME : Anga16, Peran : CSS
+2. Daftar Anggota : 1. Andre Kurniawan Tirthajaya (240010067) HTML Developer  'Membuat struktur halaman'
+   		    2. I Wayan Anga Wira Pratama (240010070) CSS Designer 'Mendesain tampilan website menggunakan CSS'
+   		    3. I Nyoman Surya Adi (240010055) JavaScript Developer 'Menambahkan fitur interaktif menggunakan Vanilla JS'
+   		    4. I Nyoman Harry Adi Suputra (240010059)Documentation Manager 'Menulis README.md yang menjelaskan project'
 
 
 3.Fitur-fitur Utama
