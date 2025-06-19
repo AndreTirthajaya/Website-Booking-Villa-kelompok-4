@@ -1,16 +1,25 @@
-Laporan Proyek: Sistem Boking Villa
+Laporan Proyek : Judul Sistem Boking Villa
+
 1. Pendahuluan
 Proyek ini adalah sebuah aplikasi web sederhana untuk memfasilitasi pemesanan vila secara online. Pengguna dapat melihat daftar vila yang tersedia, melihat detail masing-masing vila, dan melakukan pemesanan. Aplikasi ini dikembangkan menggunakan teknologi dasar web seperti HTML untuk struktur, CSS untuk gaya, dan JavaScript untuk fungsionalitas interaktif.
-2. Fitur-fitur Utama
+
+2. Daftar Anggota : 1. Andre Kurniawan Tirthajaya (2400100), USERNAME :, Peran :
+   		    2. I Nyoman Harry Adi Suputra (240010059), USERNAME : Hrylow, Peran : Membuat Laporan
+   		    3. I Nyoman Surya Adi (240010055), USERNAME : inysryadi, Peran : JavaScript
+   		    4. I Wayan Anga Wira Pratama (240010070), USERNAME : Anga16, Peran : CSS
+
+
+3.Fitur-fitur Utama
 Tampilan Daftar Vila: Menampilkan daftar vila yang tersedia dengan informasi singkat seperti nama, lokasi, dan harga per malam.
 Detail Vila: Pengguna dapat mengklik setiap vila untuk melihat informasi lebih detail, termasuk deskripsi lengkap, fasilitas, dan galeri gambar (jika diimplementasikan lebih lanjut).
 Formulir Pemesanan: Menyediakan formulir bagi pengguna untuk memasukkan tanggal check-in, tanggal check-out, jumlah tamu, dan informasi kontak.
 
-3. Teknologi yang Digunakan
+4. Teknologi yang Digunakan
 HTML: Digunakan untuk struktur dasar halaman web, termasuk elemen-elemen untuk menampilkan daftar vila, detail, dan formulir.
 CSS: Digunakan untuk styling dan tata letak aplikasi, membuat tampilan yang menarik dan responsif. Ini mencakup styling untuk kartu vila, formulir, navigasi, dan elemen UI lainnya.
 JavaScript: Digunakan untuk menambahkan interaktivitas dan fungsionalitas dinamis.
-4. Struktur File Proyek
+
+5. Struktur File Proyek
 	Berikut adalah struktur direktori yang direkomendasikan untuk proyek ini:
 			
 /nama_project
@@ -49,87 +58,52 @@ Berisi gambar yang digunakan dalam project, seperti logo, ikon, banner dan gamba
 Aset media lainnya seperti audio dan video juga ditempatkan di folder ini.
 File harus diberi nama yang deskriptif untuk memudahkan identifikasi.
 
-
-5. Cuplikan code
-
-
-       1.index.html
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Home - Booking Villa</title>
-  <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-  <header>
-    <img src="media/banner.jpg" alt="Banner Villa" class="banner">
-    <h1>Selamat Datang di Villa</h1>
-    <nav>
-      <ul class="nav">
-        <li><a href="daftar-villa.html">Daftar Villa</a></li>
-        <li><a href="galeri.html">Galeri</a></li>
-        <li><a href="promo.html">Promo</a></li>
-        <li><a href="kontak.html">Kontak</a></li>
-      </ul>
-    </nav>
-  </header>
-
-	2.css/style.css: 
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
-}
-
-header {
-  text-align: center;
-  background-color: #333;
-  color: #fff;
-  padding-bottom: 1rem;
-}
-
-.banner {
-  width: 100%;
-  height: auto;
-  max-height: 300px;
-  object-fit: cover;
-}
+6. Cara Menjalankan Website :
+  
+A.Halaman Utama
+Di halaman beranda (index.html) memiliki slideshow dimana gambar villa akan berganti otomatis setiap 5 detik (bisa dikontrol manual). dan memiliki tomobol navigasi ke halaman lainnya 
 
 
-	3.js/script.js:   
-const villas = [
-  {
-    nama: 'Villa modern dengan Kolam Renang',
-    harga: 3500000,
-    fasilitas: ['kolam'],
-    img: 'media/villamodern.jpg',
-    deskripsi: 'Villa mewah dengan kolam renang pribadi.'
-  },
-  {
-    nama: 'Villa keluarga',
-    harga: 5000000,
-    fasilitas: ['danau', 'kolam'],
-    img: 'media/villakeluarga.jpg',
-    deskripsi: 'Villa luas berkapasitas lebih dari 10 orang dengan pemandangan danau, kolam pribadi, cocok untuk keluarga besar.'
-  },
-  {
-    nama: 'Villa Hemat ',
-    harga: 1800000,
-    fasilitas: ['kolam'],
-    img: 'media/villahemat.jpg',
-    deskripsi: 'Villa harga terjangkau dengan kolam renang.'
-  },
-  {
-    nama: 'Villa Sunset View',
-    harga: 2000000,
-    fasilitas: ['danau'],
-    img: 'media/villasunset.jpg',
-    deskripsi: 'Menikmati sunset langsung dari balkon villa dengan pemandangan danau.'
-  }
-];
+B. daftar Villa
+pada halaman Daftar Villa (daftar-villa.html). memiliki tombol filter untuk memilih villa berdasarkan:
+Fasilitas (kolam renang, pemandangan danau).
+Harga (di bawah/atas Rp 3 juta).
 
-6.Kesimpulan
+Klik card villa untuk melihat detail (modal popup akan muncul). 
+
+dan memiliki tomobol navigasi ke halaman lainnya 
+
+C. Promo
+pada halaman Promo (promo.html).
+
+memiliki tombol "Lihat Promo" pada card untuk melihat detail diskon dan kode promo.
+
+dan memiliki tomobol navigasi ke halaman lainnya 
+
+D. Galeri
+halaman Galeri (galeri.html).
+
+memiliki beberapa gambar outdoor/idoor/fasilitas villa 
+gambar bisa di klik untuk membuka popup tampilan penuh.
+dan memiliki tomobol navigasi ke halaman lainnya 
+
+E. Reservasi/Kontak
+halaman Kontak (kontak.html).
+
+memiliki Isi formulir dengan:
+
+Nama, email valid, tanggal menginap.
+
+Pilih minimal 1 fasilitas.
+
+Ketik pesan.
+
+Submit formulir → Akan muncul alert konfirmasi.
+
+memiliki peta untuk menunjukkan lokasi villa
+Fitur Tambahan Tooltip Lokasi: Arahkan kursor ke peta di halaman kontak untuk melihat alamat villa.
+
+7. Tautan Github Pages :  https://andretirthajaya.github.io/Website-Booking-Villa-kelompok-4/ 
+   
+8.Kesimpulan
 Proyek ini berhasil membuat sebuah halaman pemesanan villa secara online yang sederhana dan interaktif.
